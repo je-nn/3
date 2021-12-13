@@ -144,6 +144,7 @@ textarea{
     background-color: aquamarine;
     box-shadow:2px 2px 2px white;
     border:4px dotted gold;
+    border-radius:4px;
 }
 footer{
   max-height: 120px;
