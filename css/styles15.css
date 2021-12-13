@@ -1,0 +1,165 @@
+/*Styles15*/
+body{
+  font-family: monospace;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+  background-image: url("../afbeeldingen/css200.png");
+}
+
+header{
+  min-height: 100px;
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: grey;
+  border-radius: 20px;
+  padding:25px;
+  background-image: url("../afbeeldingen/css15.png");
+}
+h1{
+  text-align: center;
+  text-shadow: 3px 3px 3px red;
+  font-weight: bolder;
+  color:peachpuff;
+}
+.menu{
+  text-align: center;
+}
+ul a{
+  text-decoration: none;
+}
+li {
+  display:inline-block;
+  height:30px;
+  width:200px;
+  text-align: center;
+  padding:12px;
+  color:darkgreen;
+  border: 3px solid gold;
+  border-radius: 20px;
+  background-color: aquamarine;
+  font-weight: bold;
+  box-shadow: inset 10px 10px 20px white;
+}
+li:hover{
+  color:aquamarine;
+  background-color: darkgreen;
+}
+
+#body{
+  min-height: 620px;
+  width: 80%;
+  margin-top: 20px;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: grey;
+  border-radius: 20px;
+  padding:25px;
+  background-image: url("../afbeeldingen/css20.png");
+}
+article{
+  width:50%;
+  border: 3px solid gold;
+  border-radius: 20px;
+  background-color: aquamarine;
+  color:black;
+  padding:50px;
+  margin-left:50px;
+  margin-top: 50px;
+  float:left;
+  box-shadow: inset 10px 10px 20px white;
+}
+aside{
+  width:20%;
+  border: 3px solid gold;
+  border-radius: 20px;
+  background-color: aquamarine;
+  color:black;
+  padding:50px;
+  margin:50px;
+  float:right;
+  box-shadow: inset 10px 10px 20px white;
+}
+aside p{
+  text-align: center;
+}
+#cv{
+  background-color: aquamarine;
+  color:black;
+  width:70%;
+  border:3px solid gold;
+  border-radius: 20px;
+  box-shadow: inset 20px 20px 30px white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding:40px;
+  border-spacing: 10px;
+}
+#cv td{
+  padding:20px;
+  border:2px dotted gold;
+  border-radius: 20px;
+}
+#cv thead{
+  background-color: aqua;
+  height:80px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+#cv tbody{
+
+}
+#cv tfoot{
+  font-weight: bold;
+  text-align: center;
+  background-color: aqua;
+  height:80px;
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 600px;
+    box-sizing:border-box;
+    border-radius: 4px;
+    background-color: aquamarine;
+    box-shadow:2px 2px 2px white;
+    border:4px dotted gold;
+    margin-left:auto;
+    margin-right: auto;
+}
+button:active{
+    background-color: darkgreen;
+    color:red;
+    box-shadow:2px 2px 2px white;
+    border:4px dotted gold;
+}
+textarea{
+    height: 300px;
+    padding: 5px 4px;
+    background-color: aquamarine;
+    box-shadow:2px 2px 2px white;
+    border:4px dotted gold;
+}
+footer{
+  max-height: 120px;
+  width: 80%;
+  margin-top: 20px;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: grey;
+  padding: 25px;
+  border-radius: 20px;
+  background-image: url("../afbeeldingen/css15.png");
+}
+footer table{
+  margin-left: auto;
+  margin-right: auto;
+}
+footer table td{
+  padding-left: 50px;
+}
